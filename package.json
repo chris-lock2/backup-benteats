@@ -1,9 +1,10 @@
 {
-    "name": "benteats-raiz",
+    "name": "t-control-raiz",
     "version": "0.0.1",
-    "private": "true",
+    "private": true,
     "scripts": {
-        "start": "node ./projeto-site/bin/www",
-        "postinstall": "cd projeto-site && npm install"
+      "start": "node ./projeto-site/bin/www",
+      "postinstall": "cd projeto-site && npm install"
     }
-}
+  }
+  
