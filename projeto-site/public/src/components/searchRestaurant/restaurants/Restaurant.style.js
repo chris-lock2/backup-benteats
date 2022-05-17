@@ -7,7 +7,7 @@ import {
 import styled from '@emotion/styled'
 
 export const Container = styled('div')`
-  padding: 75px 1em 1em 1em;
+  padding: 80px 1em 1em 1em;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@ export const Container = styled('div')`
 export const Item = styled('div')`
   max-height: 250px;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 300px 1fr;
   gap: 1.5em;
   cursor: pointer;
   padding: 20px 35px 20px 10px;
@@ -63,17 +63,19 @@ export const ContainerTitle = styled('div')`
   justify-content: space-between;
   padding-bottom: 0.25rem;
   @media screen and (max-width: 768px) {
-    justify-content: unset;
-    gap: 4em;
+    flex-direction: column;
+    gap: .5rem;
   }
 `
 
 export const Title = styled('h1')`
+  font-family: 'Inter', sans-serif;
   font-size: ${fontSize.dfSubTitle} !important;
   color: ${paletteColors.primaryText};
 `
 
 export const Address = styled('span')`
+  font-family: 'Inter', sans-serif;
   font-size: ${fontSize.smSubText};
   font-weight: 600;
   color: ${paletteColors.gray};
