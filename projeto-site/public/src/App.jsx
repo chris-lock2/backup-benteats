@@ -7,7 +7,7 @@ import SearchRestaurant from './pages/searchRestaurant/SearchRestaurant'
 
 export default function App() {
   return (
-    <>
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,6 +17,6 @@ export default function App() {
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </Router>
-    </>
+    </div>
   )
 }
