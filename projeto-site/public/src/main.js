@@ -1,5 +1,5 @@
-// import { createRoot } from 'react-dom/client'
-import createRoot from 'react-router-dom'
+import { createRoot } from '/react-dom/client'
+// import createRoot from 'react-router-dom'
 import App from './App'
 
 const container = document.getElementById('root')
